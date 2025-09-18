@@ -8,7 +8,90 @@
 </head>
 
 <body>
-    test
+    <!-- SURPRISE!! I bet you weren't expecting to see me! I'm a comment and I am never rendered with the rest of the 
+     page content that you would normally see. Instead, I stay hidden in the source and I'm used for all kinds of 
+     interesting things from reminders to informational annotations to accreditations, and more! A word of warning - as 
+     you are now aware, anyone who wishes to can view the source and can read the comments that you write for yourself. 
+     So never leave comments in your source that include ANY sensitive content. I'm shy, but I'm not invisible. -->
+    <p>To vew the source HTML, feel free to right-click anywhere in this page and select "View page source". A new
+        tab will open and you will be able to view the HTML exactly as written in the index.html source file!</p>
+    <br>
+    <p>Today we I will explore a number of HTML tags that we use to add formatting and semantic meaning to our webpages.
+    </p>
+    <p>But before I get into all of this, let's define the word <b>semantic</b>. A quick dictionary search reveals the
+        following definition: <i>relating to meaning in language or logic</i>. That's rather vague, isn't it? Let's
+        explore
+        that word a little more thoroughly so we can gain an appreciation of its impact in our lives and in our HTML.
+    </p>
+    <p>When I write the word "fluffy", and you read it, there's a lot that's actually happening in that interaction. You
+        see a collection of symbols on a page that come together to represent a series of noises that we would make to
+        each other if we were standing face-to-face. But... it's more than that, right? The word has a meaning outside
+        of what we see and hear. It conveys something that we <em>feel</em>, that we <em>imagine</em>, even. All of
+        those internal processes that instantly spring into action and present you with thoughts of furry animals, soft
+        tactile sensations, and plump shapes provide the actual meaning to the word, as you perceive it.</p>
+    <p>That's one of the reasons we have so many minor variations of a concept - think fluffy vs fuzzy vs floofy vs
+        frizzy vs puffy, etc. I'd bet that if you had to generate a basic visualization of each of those words, they'd
+        look extremely similar. Each word is more than just the shape you see, or the color, or the feel, or the way it
+        moves in the breeze.</p>
+    <br>
+    <p>Now that brings us to HTML. So what are the semantics of a tag or an element? Does a browser need to ruminate on
+        the deeper meaning of a &lt;strong&gt; tag before interpreting the code?</p>
+    <p>Well, no...</p>
+    <p>But <em>we</em> do.</p>
+    <p>For illustrative purposes let's start with the most obvious set of tags that require us to pay some extra
+        attention to the semantics of our HTML:</p>
+    <p>&lt;i&gt;, &lt;b&gt;, &lt;em&gt;, and &lt;strong&gt;</p>
+    <p>These are the <i>italics</i>, <b>bold</b>, <em>emphasis</em>, and <strong>strong</strong> tags.</p>
+    <p>Visually, there is no difference between the <i>italics</i> and <em>emphasis</em> tags or the <b>bold</b> and
+        <strong>strong</strong> tags.
+    </p>
+    <p>But as we know, there is more to meaning than what can be understood from any single dimension of perception. In
+        fact, the &lt;i&gt; tag can be used in a variety of ways that visually illustrate some minor degree of implied
+        context, such as a tag line or motto, a quote from a reviewer, a subtitle to a book or movie, etc. This context
+        only has meaning when perceived visually to the reader.</p>
+    <p>The &lt;em&gt; tag, however, holds a more conversational meaning. As the name of the tag suggests, it bestows a
+        <em>stressed emphasis</em> on any text that it encapsulates. The nature of what is implied by that emphasis
+        relies on the
+        context of the rest of the sentence or document. When used with assistive technology like a screen
+        reader, it
+        indicates a <em>stressed emphasis</em> on its content, either by generating a special set of braille indicator
+        symbols around the text, or by adding the stressed vocal quality to some, but not most voice screen readers.
+    </p>
+    <p>And the difference between &lt;b&gt; and &lt;strong&gt; are very similar. <b>Bolded text</b> should be strictly
+        used if you'd like to add a bit of formatting that acts as a visual support to the function of the content.</p>
+    <p><strong>Strong text</strong>, on the other hand, should be used only to convey a sense of importance or urgency
+        to a selection of text.</p>
+    <br>
+    <p>Those examples are fairly obvious, but what about the rest? &lt;p&gt; and &lt;div&gt; are pretty similar, but
+        &lt;p&gt; adds an extra bit of space above and below it. What if I don't like that extra space? Can I just wrap
+        all of my paragraphs in a &lt;div&gt; element?</p>
+    <p>Or what about all of the different heading tags?
+    <ul>
+        <li>
+            <h1>&lt;h1&gt;</h1>
+        </li>
+        <li>
+            <h2>&lt;h2&gt;</h2>
+        </li>
+        <li>
+            <h3>&lt;h3&gt;</h3>
+        </li>
+        <li>
+            <h4>&lt;h4&gt;</h4>
+        </li>
+        <li>
+            <h5>&lt;h5&gt;</h5>
+        </li>
+        <li>
+            <h6>&lt;h6&gt;</h6>
+        </li>
+    </ul>
+    Can't I just use &lt;h1&gt; and be done with it? How many different titles or headings could you have on a page?</p>
+    <p>Nope, sorry. it's hard to explain without jumping too far ahead in the curriculum, but trust me when I say that
+        as we get deeper into the content, you will begin to understand
+        the power and control that semantic HTML provides over the look and feel of your webpage. This is something
+        that I didn't fully appreciate the first time around but as I refactored my code over and over again, I began to
+        see that many of my headaches were solved simply by incorporating semantic HTML into my work.</p>
 </body>
 
 </html>
