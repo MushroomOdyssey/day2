@@ -10,7 +10,7 @@ The vast majority of webpages contain a whole lot of text and HTML provides a wi
 
 That’s why it’s important to keep HTML semantic. For example:
 
-&lt;em&gt; and &lt;strong&lt; italicize and bold the text, respectively, that they encapsulate. But they also convey emphasis and importance to assistive technologies.
+&lt;em&gt; and &lt;strong&gt; italicize and bold the text, respectively, that they encapsulate. But they also convey emphasis and importance to assistive technologies.
 
 &lt;i&gt; and &lt;b&gt; are their purely visual equivalents, but we should really leave matters of style to CSS. A single stylesheet can handle formatting consistently across a whole webpage and even your whole website.
 
